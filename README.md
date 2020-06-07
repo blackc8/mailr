@@ -64,7 +64,7 @@ This application is based on a api which sends mails to server using the php `ma
 You need to get a hosting with php support and enabled `mail()` function.I have used [000webhost](https://www.000webhost.com) as its free, you can use any. 
 ### 2.Upload the code
 Now upload the `mailr.php` to the server.
-### 3.Change `mailr_url` in mailr.py
+### 3.Change mailr_url in mailr.py
 after you upload the `mailr.php` copy the link and paste that to your `mailr_url` variable in `mailr.py`
 ### 4.Done
 And you are done setting up your own fake mailling server.
