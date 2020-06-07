@@ -70,9 +70,9 @@ after you upload the `mailr.php` copy the link and paste that to your `mailr_url
 And you are done setting up your own fake mailling server.
 
 ## Screenshots
-![Screenshot](screenshots/screenshot-1.png)
-![Screenshot](screenshots/screenshot-2.png)
-![Screenshot](screenshots/screenshot-3.png)
+![Screenshot1](screenshots/Screenshot-1.png)
+![Screenshot2](screenshots/Screenshot-2.png)
+![Screenshot3](screenshots/Screenshot-3.png)
 
 ## Contributer
 *  **Initial work** - [blackc8](https://github.com/termux-lock)
