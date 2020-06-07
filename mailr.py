@@ -60,7 +60,7 @@ min_banner=bold+green+"mailr ("+white+_version_+green+") ["+blue+"blackc8"+green
 
 
 def send_mail(Mto,Mfrom,Msubject,Mbody):
-    form = { "to": Mto, "from": Mfrom, "subject": Mbody, "body": Mbody }
+    form = { "to": Mto, "from": Mfrom, "subject": Msubject, "body": Mbody }
     request = Request(mailr_url, urlencode(form).encode())
     response= urlopen(request).read().decode()
     return bool(response)
