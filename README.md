@@ -1,6 +1,9 @@
 # mailr
 A simple fake mailer
 
+> The server is disabled due to Agreement Policies.Create your own server if you want to continue.:(
+
+
 ## Warning
 This is application is only for educational purpose.
 I am not responsible for any of your mischievous attempts.
