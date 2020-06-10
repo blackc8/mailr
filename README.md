@@ -1,7 +1,7 @@
 # mailr
 A simple fake mailer
 
-> The server is disabled due to Agreement Policies.Create your own server if you want to continue.:(
+> The server is disabled due to Agreement Policies, you will recive error if you try sending mail .Create your own server if you want to continue.
 
 
 ## Warning
