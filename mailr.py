@@ -1,7 +1,7 @@
 #!/bin/python3
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
-import argparse, platform
+import argparse, platform, sys
 
 _appname_="mailr"
 _version_="0.1"
@@ -116,7 +116,7 @@ parser.add_argument("-c","--count",help="number of times email to be sent",defau
 
 args = parser.parse_args()
 
-if args.interactive:
+if args.interactive or len(sys.argv) <= 1:
     print(big_banner)
     print("")
     wrn(bold+"Warning: "+ncol+dim+red+"This is application is only for educational purpose.\n    I am not responsible for any of your mischievous attempts")
